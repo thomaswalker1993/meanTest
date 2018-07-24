@@ -4,7 +4,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 var mongoose = require('mongoose');
 
 // Configure Mongoose
-var db = mongoose.connect('mongodb://localhost/mean-passport');
+var db = mongoose.connect('mongodb://206.189.22.122/mean-passport');
 
 // Configure Express
 var express = require('./config/express');
@@ -17,4 +17,4 @@ var passport = require('./config/passport')();
 app.listen(3000);
 
 // Tell developer about it
-console.log('Server running at http://localhost:3000/');
+console.log('Server running at http://206.189.22.122:3000/');
