@@ -13,6 +13,7 @@ var app = express();
 // Bootstrap passport config
 var passport = require('./config/passport')();
 
+
 // Bootstrap application
 app.listen(27017);
 
