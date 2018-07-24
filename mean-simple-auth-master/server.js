@@ -14,7 +14,7 @@ var app = express();
 var passport = require('./config/passport')();
 
 // Bootstrap application
-app.listen(3000);
+app.listen(27017);
 
 // Tell developer about it
 console.log('Server running at http://206.189.22.122:3000/');
